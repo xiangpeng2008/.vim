@@ -22,3 +22,6 @@ setlocal fileformat=unix
 let python_highlight_all=1
 
 autocmd BufWritePre * %s/\s\+$//e
+
+nmap <c-f> 0V]M<c-c>j
+
